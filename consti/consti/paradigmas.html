@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 15px ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1{
+            position: static;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        main {
+            padding: 30px;
+            text-align: center;
+            font-size: 25px;
+            position: absolute;
+            top: 200px;
+            left: 430px;
+        }
+
+        .menu{
+            background-color: #0078d7;
+            justify-content: center;
+            display: flex;
+        }
+
+        .menu a{
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        .menu a:hover{
+            background-color: #575757;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: left;
+            margin-top: 40px;
+            background-color: #0078d7;
+            color: white;
+            padding: 10px;
+
+            display: flex;
+            gap: 500px;
+        }
+
+        footer img{
+           position:absolute;
+           top: 70px;
+           right: 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paradigmas</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Menu Principal</a>
+        <a href="topico2.html">Multimedia</a>
+    </nav>
+    <div class="menu">
+    <br>
+    <a href="linguagens.html">Linguagens</a>
+    <br>
+    <a href="algoritimo.html">Algoritmo</a>
+    <br>
+    <a href="fluxograma.html">Fluxograma</a>
+    <br>
+    <a href="pseudo.html">Pseudocódigo</a>
+    <br>
+    <a href="erros.html">Teste e Controlo de Erros</a>
+    <br>
+    <a href="paradigmas.html">Paradigmas</a>
+    <br>
+    </div>
+
+    <br><br><br>
+    <main>
+        <h2>Paradigmas de Programação</h2>
+    <p>
+        Um paradigma de programação é um modelo que procura a melhor<br>
+        forma de resolver um problema usando uma determinada linguagem.<br>
+        Os paradigmas determinam as regras e princípios que orientam o<br>
+        estilo de programação e a forma de estruturar o código.<br>
+    </p>
+    <h2>Paradigma Imperativo</h2>
+    <p>
+        Este paradigma tem como objetivo explicar como executar passo a passo,<br>
+        na sequência correta que deve ser realizada a tarefa, ou seja, este<br>
+        paradigma tem como foco “como” fazer e não “o que” fazer na tarefa.<br>
+        O paradigma imperativo caracteriza-se pela execução sequencial de instruções<br>
+        que modificam o estado do programa. Esse modelo é adequado quando se pretende<br>
+        ter um controlo detalhado sobre o fluxo de execução e sobre as alterações das<br>
+        variáveis ao longo do tempo.<br><br>
+        As linguagens imperativas, ao serem executadas, eventualmente modificam o<br>
+        estado do programa. Nesse mesmo sentido, a programação imperativa resume-se<br>
+        a três conceitos:<br><br>
+        * Estados de uma máquina abstrata, descritos por valores de um conjunto de variáveis;<br>
+        * Reconhecedores de estados — expressões compostas por relações entre esses valores<br>
+        ou os resultados de operações utilizando valores;<br>
+        * Comandos de atribuição e controle que manipulam o estado.<br><br>
+        As características deste são:<br><br>
+        * Variáveis: As variáveis mantêm o estado de um programa imperativo e são<br>
+        associadas com localizações de memória que correspondem a um endereço e um valor<br>
+        de armazenamento. O valor da variável pode ser acedido e alterado direta ou<br>
+        indiretamente, através de um comando de atribuição ou de um comando de leitura.<br>
+        * Atribuições: O comando de atribuição introduz uma dependência de ordem no programa:<br>
+        o valor de uma variável é diferente antes e depois de um comando de atribuição.<br>
+        * Sequência: O resultado do processamento de um programa depende da ordem na<br>
+        qual os comandos são escritos e executados, ou seja, da sequência na qual os<br>
+        comandos estão escritos.<br><br>
+        As linguagens de programação que adotam o paradigma imperativo são<br>
+        por exemplo: C, Java e Python.<br>
+        As vantagens incluem eficiência e controlo detalhado sobre o fluxo de<br>
+        execução, e as desvantagens é ser mais complexo e possíveis efeitos colaterais.<br><br>
+    </p>
+    <h2>Paradigma Declarativo</h2>
+    <p>
+        A programação declarativa é um paradigma de programação que se concentra<br>
+        em descrever o que um programa deve realizar, em vez de como deve ser executado.<br><br>
+        Existem alguns princípios fundamentais que guiam a programação declarativa.<br><br>
+        * O primeiro princípio, o princípio da imutabilidade, sugere que os dados não devem<br>
+        ser modificados após serem criados.<br>
+        * O segundo princípio é o da transparência referencial, que determina que uma<br>
+        função deve sempre retornar o mesmo resultado para os mesmos argumentos.<br>
+        * O terceiro princípio é o da avaliação preguiçosa, que significa que as<br>
+        expressões só são avaliadas quando seus resultados são realmente necessários.<br>
+        Existem várias linguagens de programação que adotam o paradigma declarativo,<br>
+        a linguagem Prolog e a linguagem Haskell são das mais conhecidas.<br><br>
+        A linguagem Prolog baseia-se em lógica de predicados, o programador define<br>
+        factos e regras lógicas e o sistema de execução é responsável por encontrar<br>
+        soluções para as consultas feitas ao programa.<br><br>
+        A linguagem Haskell baseia-se em programação funcional. Nesta linguagem o<br>
+        programador define funções puras, que não têm efeitos colaterais, e expressões<br>
+        que são avaliadas de forma preguiçosa.<br><br>
+        As programações declarativas têm como vantagens a redução de efeitos<br>
+        colaterais, a redução de bugs e maior legibilidade dos códigos, mas também<br>
+        têm desvantagens como a difícil adaptação dos programadores.<br><br>
+    </p>
+    <h2>Paradigma Funcional</h2>
+    <p>
+        Este paradigma é baseado em funções matemáticas puras, ou seja,<br>
+        sempre o mesmo resultado para a mesma entrada e a imutabilidade de dados.<br><br>
+        Os programas tornam-se mais confiáveis e previsíveis, reduzindo a probabilidade<br>
+        de bugs. É utilizado em linguagens como Haskell, JavaScript e Python.<br><br>
+    </p>
+    <h2>Paradigma Lógico</h2>
+    <p>
+        O paradigma lógico é um estilo de programação declarativa que se baseia<br>
+        na lógica simbólica e na inferência para resolver problemas.<br>
+        Neste modelo, o programador estabelece factos e regras lógicas que<br>
+        representam o conhecimento de um determinado domínio. Linguagens de<br>
+        programação lógica permitem, assim, que a implementação encontre<br>
+        automaticamente as sequências de factos e inferências necessárias para<br>
+        satisfazer os objetivos definidos.<br><br>
+        O sistema usa inferência para deduzir soluções.<br>
+        A linguagem mais comum é o Prolog.<br><br> 
+    </p>
+    <h2>Paradigma Orientado a Objetos</h2>
+    <p>
+        A Programação Orientada a Objetos (POO) é um paradigma de programação<br>
+        que modela o mundo real por meio de objetos, que são instâncias de classes.<br>
+        Cada objeto combina atributos, que representam os seus dados, e métodos,<br>
+        que definem o seu comportamento.<br><br>
+
+        O objeto é uma instância concreta de uma classe, ou seja, uma entidade<br>
+        que possui valores específicos para os atributos definidos na classe.<br><br>
+
+        A classe é o modelo ou estrutura que define os atributos e<br>
+        métodos de um tipo de objeto.<br><br>
+
+        Este paradigma baseia-se ainda nos seguintes princípios:<br><br>
+
+        O encapsulamento consiste em proteger os dados internos de um objeto,<br>
+        permitindo o acesso apenas por meio de métodos específicos.<br><br>
+
+        A herança permite que uma classe herde propriedades e métodos de outra,<br>
+        promovendo a reutilização de código e facilitando a criação de<br>
+        hierarquias de classes.<br><br>
+
+        O polimorfismo possibilita que um mesmo método apresente diferentes<br>
+        comportamentos de acordo com o tipo do objeto que o utiliza.<br><br>
+
+        A abstração consiste em representar apenas os aspetos essenciais<br>
+        de um objeto, ocultando detalhes desnecessários.<br><br>
+
+        Este paradigma é amplamente utilizado no desenvolvimento de sistemas<br>
+        modernos devido à sua capacidade de representar entidades do mundo real<br>
+        de forma clara e eficiente.<br><br>
+
+        As linguagens de programação que possibilitam aplicação prática<br>
+        dos princípios da POO são: Java, C++, Python, Ruby, C#, Swift e PHP<br>
+        (nas versões modernas).<br><br>
+    </p>
+    <img src="WhatsApp Image 2025-10-27 at 16.56.15.jpeg" alt="(Figura 6 – Exemplo prático em Python)" width="500">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </main>
+    <footer>
+        <p>Trabalho feito por:<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Constança Quinteira, Nº 4<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maria Pacheco, Nº 19<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nair Mamadú, Nº<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valentina Valadares, Nº 25
+        </p>
+        
+        <div class="img">
+            <img src="CAMOES_HORIZONTAL_ASS_1CORNEG_RGB.png" alt="Logo Camões" width="200">
+        </div>
+    </footer>
+</body>
+</html>
